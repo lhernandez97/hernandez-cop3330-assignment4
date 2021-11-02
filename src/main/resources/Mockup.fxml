@@ -1,0 +1,29 @@
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<Pane accessibleRole="BUTTON" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Text fill="#2676c7" layoutX="11.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To-Do List Options" wrappingWidth="138.78311729431152"/>
+        <Text fill="#2676c7" layoutX="11.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item Options" wrappingWidth="138.78311729431147"/>
+        <Text fill="#2676c7" layoutX="11.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Display Options" wrappingWidth="151.19823989868172"/>
+        <Hyperlink layoutX="25.0" layoutY="98.0" text="Add"/>
+        <Hyperlink layoutX="284.0" layoutY="98.0" text="Edit"/>
+        <Hyperlink layoutX="527.0" layoutY="99.0" text="Delete"/>
+        <Hyperlink layoutX="25.0" layoutY="181.0" text="Add"/>
+        <Hyperlink layoutX="285.0" layoutY="181.0" text="Edit"/>
+        <Hyperlink layoutX="527.0" layoutY="181.0" text="Delete"/>
+        <Hyperlink layoutX="12.0" layoutY="269.0" text="Display One"/>
+        <Hyperlink layoutX="271.0" layoutY="270.0" text="Display All"/>
+        <Text fill="#2676c7" layoutX="14.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="External Storage"/>
+        <Hyperlink layoutX="22.0" layoutY="352.0" text="Save One"/>
+        <Hyperlink layoutX="162.0" layoutY="353.0" text="Save All"/>
+        <Hyperlink layoutX="370.0" layoutY="353.0" text="Load One"/>
+        <Hyperlink layoutX="521.0" layoutY="353.0" text="Load All"/>
+        <Text fill="#c11313" layoutX="28.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To-Do List Management App" textAlignment="CENTER" wrappingWidth="541.183084487915">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Text>
+    </children>
+</Pane>

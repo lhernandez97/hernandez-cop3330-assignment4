@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App
+class Home
+class Item
+class Print
+class ExternalStorage
+
+App <|-- Home
+Home <|-- Item
+Home <|-- Print
+Home <|-- ExternalStorage
+Print <|-- Item
+
+
+class App {
+    main()
+}
+
+class Home {
+    display()
+}
+
+class Item {
+    -desc : String
+    -due_date : String
+    -complete : boolean
+    getDesc()
+    getDueDate()
+    getComp()
+    setDesc()
+    setDueDate()
+    setComp()
+}
+
+class Print {
+    printAll()
+    printComplete()
+    printIncomplete()
+}
+
+class ExternalStorage {
+    saveOne()
+    saveAll()
+    loadSingle()
+    loadMulti()
+}
+
+@enduml
