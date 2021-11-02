@@ -29,12 +29,14 @@ public class ExternalStorage {
         /*
         * FileName : String = list + ".txt"
         * Create a File object with a pathname "FileName"
+        * Create a Scanner object to read the File
         */
     }
     //load multiple to-do lists from external storage
     public void loadMulti(ArrayList<Item> multi) {
         /*
         * Create a File object with a pathname "alllists.txt"
+        * Create a File object to read the File
         */
     }
 }
